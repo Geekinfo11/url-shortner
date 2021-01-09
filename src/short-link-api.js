@@ -15,7 +15,6 @@ const shortLinkRequest = (fullUrl, callback)=>{
         callback(undefined, response.body.url.shortLink)
 
     })
-    return 0
 }
  
 module.exports = shortLinkRequest
